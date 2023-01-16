@@ -1,0 +1,175 @@
+các thẻ <meta>
+
+<meta charset="UTF-8" />
+    Thẻ meta với charset="UTF-8" có tác dụng hỗ trợ hiển thị các ký tự nằm ngoài khoảng từ A - Z. Ví dụ: tiếng Việt có dấu, tiếng Trung, tiếng Nhật, riếng Ả Rập, …
+<title>HTML, CSS từ Zero đến Hero | by F8</title>
+    Hiển thị tiêu đề trang web trên thanh tab của trình duyệt, hiển thị tiêu đề trong kết quả của công cụ tìm kiếm (ví dụ: Google Search)   
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    Để tối ưu hóa việc hiển thị giao diện web trên nhiều thiết bị có kích cỡ màn hình khác nhau (như PC, tablet, mobile) bạn sẽ cần sử dụng thẻ meta viewport.
+    Trong thẻ meta viewport, giá trị width=device-width nhằm yêu cầu trình duyệt đặt chiều rộng của trang web bằng chiều rộng của thiết bị (PC, tablet, mobile). Giá trị initial-scale=1.0 nhằm giữ đúng kích thước/tỉ lệ mặc định của trang web.
+<meta Open Graph>
+    Đây là các thẻ meta được trình thu thập nội dung của Facebook sử dụng, nhằm lấy thông tin của trang web phục vụ việc hiển thị khi trang web được chia sẻ trên mạng xã hội này.
+
+các thẻ tiêu đề <h1-6>
+    <h1>Tiêu đề</h1>
+    sử dụng thẻ <h1> cho tiêu đề chính cho trang web
+    Thẻ <h2> được sử dụng làm tiêu đề các phần chính trong một trang web. Thẻ <h2> được sử dụng làm tiêu con của thẻ <h1>.
+    
+thẻ <p>
+    <p>đoạn văn</p>
+    Thẻ <p> được dùng để thể hiện một đoạn văn bản trên trang web. Ví dụ như một bài blog được tạo ra bởi nhiều đoạn văn bản.
+    <p>Nội dung đoạn văn bản</p>
+
+thẻ <br>
+    <p>
+        Mọc giữa dòng sông xanh<br />
+        Một bông hoa tím biếc<br />
+    </p>
+    Thẻ ngắt dòng (Line Break element) trong HTML là <br />, được sử dụng để tạo ra một dòng mới (ngắt dòng) trong cùng một đoạn văn. Đây là một thẻ tự đóng.
+    tạo điểm ngắt dòng cho một bài thơ hoặc một địa chỉ.
+
+thẻ <strong> và <b>
+    <strong>Nội dung</strong>
+    <b>Nội dung</b>
+    Thẻ <b> thường được sử dụng để in đậm một đoạn văn bản, nhằm thu hút sự chú ý của người đọc vào nội dung này.
+    Thẻ <strong> sử dụng khi muốn thể hiện sự quan trọng, nghiêm trọng, khẩn cấp, v.v
+
+thẻ <em> và <i>
+    <em>nội dung</em>
+    <i>nội dung</i>
+    Để in nghiêng nội dung: ưu tiên dùng thẻ <i> hoặc CSS sẽ hợp lý hơn là dùng thẻ <em>.
+    Để nhấn mạnh từ: dùng thẻ <em>, vì dùng thẻ <i> hoặc CSS sẽ không mang ý nghĩa nhấn mạnh.
+
+thẻ <ul> và <ol>
+    <ul>
+        <li>
+            nội dung
+        </li>
+    </ul>
+    Thẻ ul (unordered list, ý nghĩa: “danh sách không có thứ tự”) dùng để thể hiện một danh sách mà số thứ tự trong đó không quan trọng.
+    Thẻ ol (ordered list, ý nghĩa: “danh sách có thứ tự”) dùng để thể hiện một danh sách mà số thứ tự trong đó mang lại ý nghĩa, hoặc có quan trọng số thứ tự.
+    Thẻ li (list item, ý nghĩa: “mục trong danh sách”) được dùng làm thẻ con trong thẻ <ul> hoặc <ol>.
+        emmet: ul>li*3{noi dung $}
+
+thẻ a 
+    <a href="https://fullstack.edu.vn/">Tới F8</a>
+        Thuộc tính href (hypertext reference) trong thẻ <a> được dùng để khai báo URL mà trang web sẽ được chuyển đến.
+    target sử dụng trong thẻ <a>
+        _self là mở liên kết từ trang hiện tại (mặc định)
+        _blank là mở liên kết trong tab mới
+        <p>
+            <!-- Mở liên kết từ trang hiện tại -->
+            <a href="https://f8.edu.vn">Mở F8 từ trang hiện tại</a>
+        </p>
+        <p>
+            <!-- Mở liên kết trong tab mới -->
+            <a href="https://f8.edu.vn" target="_blank">Mở F8 trong tab mới</a>
+        </p>
+    mail và tel
+    <a href="mailto:example@gmail.com">Gửi email cho tôi</a>
+    <a href="tel:0999999999">Gọi cho tôi</a>
+    giữ chỗ 1 liên kết (ấn vào không thay đổi gì)
+    <a href="#!">Vị trí muốn giữ</a>
+    đưa đến 1 vị trí ( dùng hash(#) )
+    <a href="#meet-laravel">Meet Laravel</a>
+
+thẻ img                                                                                     
+    <img src="https://htmlcss.fullstack.edu.vn/assets/f8_icon.png" width="100" height="100" alt="F8"/>
+    src link ảnh
+    widlh chiều rộng ảnh khi lên trình duyệt
+    height chiều dài ảnh khi lên trình duyệt
+    alt ghi chú nội dung ảnh khi ảnh mất
+
+    các định dạng ảnh https://htmlcss.fullstack.edu.vn/?id=873924a4-3b66-4dfa-867e-0ddf43d79387
+    tối ưu dung lượng hình ảnh https://tinypng.com
+    Thêm liên kết vào hình ảnh <a href="https://fullstack.edu.vn" target="_blank"><img src="https://htmlcss.fullstack.edu.vn/assets/f8_icon.png"width="100" height="100"alt="F8"/></a>
+    nguồn ảnh miễn phí https://unsplash.com https://www.pexels.com https://drawkit.com https://undraw.co/illustrations https://www.uifaces.co 
+    Thẻ figure
+        Thẻ <figure> được sử dụng để thể hiện hình ảnh trong nội dung tài liệu như hình minh họa, biểu đồ, khối code, v.v. Đây là một thẻ có từ phiên bản HTML5.
+        <figure>
+            <img src="https://example.com/images/appple.png" alt="Apple" />
+        </figure>
+    Thẻ figcaption
+        Thẻ <figcaption> dùng để bổ sung chú thích cho nội dung được thể hiện bằng thẻ <figure>. Ví dụ như chú thích cho một hình ảnh, video, biểu đồ, v.v.
+            <figure>
+                <img src="https://example.com/images/appple.png" alt="Apple" />
+                <figcaption>An Apple</figcaption>
+            </figure>
+thẻ pre
+    Thẻ <pre> (preformatted - định dạng sẵn) được sử dụng để giữ nguyên khoảng cách văn bản, ngắt dòng, tab và các ký tự định dạng khác mà trình duyệt web bỏ qua.
+        <pre>
+            Địa chỉ: Số 8, đường Nguyễn Văn A, Quận Cầu Giấy, HN
+            Email: contact@abc.com
+            Phone: 0123456789
+         </pre>
+HTML Entities
+    HTML Entities là các chuỗi bắt đầu bằng dấu & và kết thúc bằng dấu ;. Nó được sử dụng để hiển thị 2 loại ký tự:
+        Các ký tự có ý nghĩa đặc biệt hoặc trùng với các ký tự trong HTML
+        Các ký tự không dễ dàng hoặc không nhập được từ bàn phím. Ví dụ: ©, ™, v.v
+    Có tới hàng ngàn HTML Entities, nhưng thực tế chúng ta thường sử dụng một vài trong số đó.
+        https://www.w3schools.com/html/html_entities.asp
+
+Thẻ code
+    Thẻ <code> trong HTML được sử dụng để thể hiện các đoạn code trong nội dung trang web. Ví dụ như trang web này, bạn sẽ thấy rất nhiều ví dụ có đề cập tới các đoạn code HTML.
+    Có 2 cách sử dụng:
+        Thể hiện code trong một đoạn văn
+        Thể hiện một khối code độc lập
+
+Thẻ tùy chỉnh
+    Là thẻ chúng ta tự đặt tên (gần giống struct)
+
+Thẻ link 
+    Liên kết file css bên ngoài 
+        <link rel="stylesheet" href="main.css">
+    Thêm favicon (biểu tượng trên title)
+    Tạo kết nối trước 
+    
+
+    justify-content:
+        flex-start: Các hạng mục sẽ được sắp xếp về phía bên trái của hộp chứa.
+        flex-end: Các hạng mục sẽ được sắp xếp về phía bên phải của hộp chứa.
+        center: Các hạng mục sẽ được sắp xếp ở giữa chính của hộp chứa.
+        space-between: Các hạng mục sẽ được trình bày với khoảng cách bằng nhau giữa chúng.
+        space-around: Các hạng mục sẽ được trình bày với khoảng cách bằng nhau xung quanh chúng.
+
+    align-items:
+        flex-start: Các hạng mục sẽ được sắp xếp phía trên của hộp chứa.
+        flex-end: Các hạng mục sẽ được sắp xếp phía dưới cùng của hộp chứa.
+        center: Các hạng mục sẽ được sắp xếp ở giữa chính của hộp chứa.
+        baseline: Các hạng mục sẽ được hiển thị ở đường cơ bản của hộp chứa.
+        stretch: Các hạng mục sẽ được kéo dài để phù hợp với hộp chứa.
+    
+    flex-direction:
+        row: Các hạng mục được đặt cùng hướng với hướng của từ trong văn bản.
+        row-reverse: Các hạng mục được đặt ngược hướng với hướng của từ trong văn bản.
+        column: Các hạng mục được đặt từ trên xuống dưới.
+        column-reverse: Các hạng mục được đặt từ dưới lên trên.
+    
+    flex-wrap:
+        nowrap: Mỗi hạng mục được dồn vào một hàng duy nhất.
+        wrap: Các hạng mục quấn xung quanh để tạo thêm dòng.
+        wrap-reverse: Các hạng mục quấn xung quanh để tạo thêm dòng ngược lại.
+        
+    align-content
+        flex-start: Các dòng được dồn về phía trên cùng của hộp chứa.
+        flex-end: Các dòng được dồn về phía dưới cùng của hộp chứa.
+        center: Các dòng được dồn về trung tâm của hộp chứa.
+        space-between: Các dòng được trình bày với khoảng cách bằng nhau giữa chúng.
+        space-around: Các dòng sẽ được trình bày với khoảng cách bằng nhau xung quanh chúng.
+        stretch: Các dòng sẽ được kéo dài để phù hợp với hộp chứa.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//

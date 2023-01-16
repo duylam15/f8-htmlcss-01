@@ -1,0 +1,141 @@
+* {
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+}
+/* * {
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    font-family: system-ui, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
+        'Segoe UI Symbol';
+    background: #333;
+}
+.menu > li {
+    display: inline-block;
+    margin: 0px 12px;
+}
+.menu li {
+    position: relative;
+}
+.menu li:hover > .sub-menu {
+    display: block;
+}
+.menu a {
+    text-decoration: none;
+    color: white;
+    padding-bottom: 15px;
+}
+.sub-menu {
+    position: absolute;
+    background: white;
+    top: 32px;  
+    width: 150px;
+    display: none;
+}
+.sub-menu a {
+    display: block;
+    color: black;
+    padding: 8px 16px;
+    border-bottom: 1px solid #ccc;
+}
+.sub-menu a:hover {
+    background: pink;
+    color: black;
+}
+.sub-menu .sub-menu {
+    left: 100%;
+    top: 0;
+    display: none;
+} */
+/*  */
+/* body {
+    height: 100vh;
+    font-family: system-ui, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
+        'Segoe UI Symbol';
+    background: #333;
+}
+.menu {
+  position: relative;
+  background: white;
+}
+.menu a{
+  display: inline-block;
+  color: black;
+  padding: 14px 20px 16px;
+}
+.menu-item{
+  display: inline-block;
+}
+.menu-item:hover .sub-menu{
+  display: block;
+}
+.sub-menu{
+  position: absolute;
+  background-color: pink;
+  left: 0;
+  right: 0;
+  padding: 20px;
+  display: none;
+}
+h3 {
+  font-size: 20px;
+  font-weight: 500;
+}
+p {
+  margin-top: 20px;
+} */
+
+/* .all {
+    padding: 30px;
+}
+.test {
+    max-width: 100%;
+}
+h1 {
+    font-size: 20px;
+    font-weight: 600;
+}
+.aa {
+  margin-top: 12px;
+}
+
+img{
+  margin-top: 12px;
+}
+.modal {
+  position: fixed;
+  inset: 0;
+  display: flex;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+.modal .body {
+  position: relative;
+  margin: auto;
+  width: 440px;
+}
+.modal .body img {
+  width: 100%;
+}
+.modal .btn{
+  position: absolute;
+  right: -10px;
+  top: -10px;
+  display: flex;
+  font-size: 20px;
+  border-radius: 50%;
+  border: none;
+  background-color: #ccc;
+  color: #666;
+  cursor: pointer;
+}
+.modal .btn i{
+  margin: auto;
+} */
+
+/*  */
